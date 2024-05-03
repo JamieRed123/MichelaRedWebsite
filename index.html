@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michela Redington</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F2E8FF;
+            text-align: center;
+        }
+
+        header {
+            background-color: #7059FF;
+            color: #fff;
+            font-size: 1.5em;
+            padding: 0.5em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        img {
+            border-radius: 50%;
+            max-width: 30%;
+            max-height: 30%;
+            height: auto;
+            margin-top: 1em;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        p a {
+            text-decoration: underline;
+            color: #333;
+            padding: 0;
+            border: none;
+            display: inline;
+        }
+
+        a {
+            display: inline-block;
+            margin: 0.5em;
+            padding: 0.5em 0.5em;
+            text-decoration: none;
+            color: #333;
+            background-color: #fff;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #7059FF;
+            color: #fff;
+            padding: 0.5em;
+            position: static;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Profile Picture -->
+        <img src="static/images/michela_profile_pic.png" alt="Michela Redington Profile Picture">
+        <h1>Michela Redington</h1>
+        <p>Northeastern Graduate</p> <!-- job title -->
+    </header>
+
+    <section>
+        <p>Hi there! I'm Michela...</p>
+        <p>I'm a new 2024 Northeastern graduate with a double major in Cultural Anthropology and International Affairs and a minor in Marketing. I'm intensely passionate about living a vegan and  sustainable lifestyle and always looking to connect with people that share my vision.</p>
+        <p>This website was made by my super cool brother as a graduation gift, so Happy Graduation!</p>
+        <p>Feel free to get in touch with me through any of my socials below or click <a href=mailto:mmredington@gmail.com>here</a> to send me an email</p>
+
+        <div>
+            <!-- social media accounts -->
+            <a href="https://www.linkedin.com/in/michela-redington-42a49b1bb/" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/michelaredington/" target="_blank">Instagram</a>
+            <a href="https://www.instagram.com/wheresmichela/" target="_blank">Travel Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Michela Redington &copy; <span id="currentYear"></span> (built by Jamie Redington)</p>
+    </footer>
+    <script>
+        document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>
